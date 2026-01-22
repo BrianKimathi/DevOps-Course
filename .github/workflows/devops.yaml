@@ -4,7 +4,7 @@ name: Devops CICD Pipeline
 on: 
   push:
     branches: 
-      - main: 
+      - main 
     paths-ignore:
       - ./manifests
 
