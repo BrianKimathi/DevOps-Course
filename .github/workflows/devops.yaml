@@ -34,5 +34,5 @@ jobs:
       run: |
         git config user.name "Brian Kimathi"
         git config user.email "kimathibrian71@gmail.com"
-        git commi -m "Updating image tag inside manifest using actions"
+        git commit -m "Updating image tag inside manifest using actions"
         git push origin main
