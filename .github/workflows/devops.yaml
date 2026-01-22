@@ -1,6 +1,9 @@
 # Devops Github Actions Workflow for CI/CD
 name: Devops CICD Pipeline
 
+permissions:
+  contents: write
+
 on: 
   push:
     branches: 
