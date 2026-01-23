@@ -16,5 +16,5 @@ spec:
         app: devopsdep
     spec:
       containers:
-        - image: briankimathi/pythonapp:d40ac12999839a6a9e95f8e96142c1dc3a51fef8
+        - image: briankimathi/pythonapp:64c312a3f62a5e3af61a8584d991e433d9929784
           name: pythonapp
