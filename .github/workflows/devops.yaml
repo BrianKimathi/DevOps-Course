@@ -57,6 +57,6 @@ jobs:
             --grpc-web \
             --username admin \
             --password ${{ secrets.ARGOCD_PASSWORD }}
-     - name: Sync argocd application
-       run: |
-         argocd app sync cicddemoone
+      - name: Sync argocd application
+        run: |
+          argocd app sync cicddemoone
