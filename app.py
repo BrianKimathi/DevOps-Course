@@ -5,7 +5,7 @@ app  = Flask(__name__)
 
 @app.route("/")
 def index():
-    return {"message": "Welcome to DevOps course."}
+    return {"message": "Welcome to DevOps course V2."}
 
 @app.route("/health")
 def health():
@@ -18,7 +18,8 @@ def services():
         "Cloud Computing",
         "DevOps",
         "Data Science"
-        "Security"
+        "Security",
+        "Devops Init"
     ]
 
     return { "services": services_list }
